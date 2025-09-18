@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | DeepSenti - AI Sentiment Analysis Insights</title>
+    <meta name="description" content="Read the latest insights on AI sentiment analysis, customer feedback trends, and business intelligence from DeepSenti experts.">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap');
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+        }
+        .blog-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .category-tag {
+            background: linear-gradient(135deg, #a777e3 0%, #3b82f6 100%);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="../index.html" class="text-2xl font-bold text-blue-600">DeepSenti</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="../index.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a>
+                    <a href="../index.html#features" class="text-gray-600 hover:text-blue-600 transition duration-300">Features</a>
+                    <a href="../index.html#demo" class="text-gray-600 hover:text-blue-600 transition duration-300">Demo</a>
+                    <a href="index.html" class="text-blue-600 font-semibold">Blog</a>
+                    <a href="../index.html#demo" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Get Started</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-600 hover:text-blue-600">
+                        <i data-feather="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-gradient text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6" data-aos="fade-up">
+                Insights & Trends in AI Sentiment Analysis
+            </h1>
+            <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90" data-aos="fade-up" data-aos-delay="100">
+                Stay ahead with expert insights on customer sentiment, AI trends, and business intelligence.
+            </p>
+        </div>
+    </div>
+
+    <!-- Featured Post -->
+    <div class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4" data-aos="fade-up">Featured Article</h2>
+            </div>
+
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+                <div class="lg:col-span-8" data-aos="fade-right">
+                    <article class="bg-white rounded-xl shadow-lg overflow-hidden blog-card transition duration-300">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI Analytics Dashboard" class="w-full h-64 object-cover">
+                        <div class="p-8">
+                            <div class="flex items-center mb-4">
+                                <span class="category-tag text-white px-3 py-1 rounded-full text-sm font-medium">Business Strategy</span>
+                                <span class="ml-4 text-gray-500 text-sm">December 18, 2023</span>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                                <a href="post2.html" class="hover:text-blue-600 transition duration-300">
+                                    Why Customer Understanding is Business Critical in 2024
+                                </a>
+                            </h3>
+                            <p class="text-gray-600 mb-6">
+In today's hyper-competitive landscape, truly understanding your customers isn't just nice-to-have anymore—it's the difference between thriving and merely surviving in the market...
+                            </p>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Author" class="w-10 h-10 rounded-full">
+                                    <div class="ml-3">
+                                        <p class="text-sm font-medium text-gray-900">Sumit Pandey</p>
+                                        <p class="text-sm text-gray-500">Founder & CEO, DeepSenti</p>
+                                    </div>
+                                </div>
+                                <a href="post2.html" class="text-blue-600 font-semibold hover:text-blue-800 transition duration-300">
+                                    Read More →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="lg:col-span-4 mt-8 lg:mt-0" data-aos="fade-left">
+                    <div class="bg-white rounded-xl shadow-lg p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-6">Categories</h3>
+                        <div class="space-y-3">
+                            <a href="#" class="flex items-center justify-between text-gray-600 hover:text-blue-600 transition duration-300">
+                                <span>AI Trends</span>
+                                <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded text-sm">12</span>
+                            </a>
+                            <a href="#" class="flex items-center justify-between text-gray-600 hover:text-blue-600 transition duration-300">
+                                <span>Customer Experience</span>
+                                <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded text-sm">8</span>
+                            </a>
+                            <a href="#" class="flex items-center justify-between text-gray-600 hover:text-blue-600 transition duration-300">
+                                <span>Business Intelligence</span>
+                                <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded text-sm">6</span>
+                            </a>
+                            <a href="#" class="flex items-center justify-between text-gray-600 hover:text-blue-600 transition duration-300">
+                                <span>Case Studies</span>
+                                <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded text-sm">4</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg p-6 mt-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-6">Newsletter</h3>
+                        <p class="text-gray-600 mb-4">Get the latest insights delivered to your inbox.</p>
+                        <a href="mailto:sumitpandey171@gmail.com?subject=Newsletter Subscription&body=Hi Sumit,%0D%0A%0D%0AI'd like to subscribe to your newsletter to get the latest insights on customer sentiment analysis.%0D%0A%0D%0AThank you!" class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300 block text-center">
+                            Subscribe to Newsletter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Posts -->
+    <div class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4" data-aos="fade-up">Recent Articles</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Post 1: AI Revolution -->
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden blog-card transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="AI Analytics Dashboard" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">AI Trends</span>
+                            <span class="ml-3 text-gray-500 text-sm">Dec 15, 2023</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            <a href="post1.html" class="hover:text-blue-600 transition duration-300">
+                                How AI Sentiment Analysis is Revolutionizing Customer Experience
+                            </a>
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            Discover how modern AI sentiment analysis goes beyond simple positive/negative classifications to understand nuanced customer emotions...
+                        </p>
+                        <div class="flex items-center">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Sumit Pandey" class="w-8 h-8 rounded-full">
+                            <div class="ml-3">
+                                <p class="text-sm font-medium text-gray-900">Sumit Pandey</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 3: Hidden Costs -->
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden blog-card transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Business Financial Loss" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">Financial Impact</span>
+                            <span class="ml-3 text-gray-500 text-sm">Dec 16, 2023</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            <a href="post3.html" class="hover:text-blue-600 transition duration-300">
+                                The Hidden Cost of Not Knowing Your Customers
+                            </a>
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            Most businesses lose $75 million annually without realizing why. Calculate the real financial impact of customer misunderstanding...
+                        </p>
+                        <div class="flex items-center">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Sumit Pandey" class="w-8 h-8 rounded-full">
+                            <div class="ml-3">
+                                <p class="text-sm font-medium text-gray-900">Sumit Pandey</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 4: DeepSenti Transforms -->
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden blog-card transition duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="DeepSenti Platform" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Platform Deep Dive</span>
+                            <span class="ml-3 text-gray-500 text-sm">Dec 14, 2023</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            <a href="post4.html" class="hover:text-blue-600 transition duration-300">
+                                How DeepSenti Transforms Customer Insights
+                            </a>
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            See how our AI platform turns customer feedback into actionable business intelligence that drives real results...
+                        </p>
+                        <div class="flex items-center">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Sumit Pandey" class="w-8 h-8 rounded-full">
+                            <div class="ml-3">
+                                <p class="text-sm font-medium text-gray-900">Sumit Pandey</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Product</h3>
+                    <ul class="space-y-2">
+                        <li><a href="../index.html#features" class="hover:text-white transition duration-300">Features</a></li>
+                        <li><a href="../index.html#demo" class="hover:text-white transition duration-300">Demo</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Pricing</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">API</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-white transition duration-300">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Documentation</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Guides</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition duration-300">About</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Privacy</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Terms</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i data-feather="twitter" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i data-feather="linkedin" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i data-feather="github" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center">
+                <p>© 2023 DeepSenti. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>

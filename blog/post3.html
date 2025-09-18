@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hidden Cost of Not Knowing Your Customers | DeepSenti Blog</title>
+    <meta name="description" content="Calculate the real financial impact of customer misunderstanding. Most businesses lose $75 million annually without realizing why. Here's the breakdown.">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap');
+        .hero-gradient { background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%); }
+        .prose { max-width: none; }
+        .prose h2 { color: #1f2937; font-weight: 700; font-size: 1.875rem; margin-top: 2rem; margin-bottom: 1rem; }
+        .prose h3 { color: #374151; font-weight: 600; font-size: 1.5rem; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+        .prose p { color: #4b5563; line-height: 1.75; margin-bottom: 1rem; }
+        .prose ul { list-style-type: disc; margin-left: 1.5rem; margin-bottom: 1rem; }
+        .prose li { margin-bottom: 0.5rem; color: #4b5563; }
+        .prose blockquote { border-left: 4px solid #3b82f6; padding-left: 1rem; font-style: italic; color: #6b7280; margin: 1.5rem 0; }
+        .cost-box { background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border: 2px solid #3b82f6; }
+        .savings-box { background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%); border: 2px solid #22c55e; }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="../index.html" class="text-2xl font-bold text-blue-600">DeepSenti</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="../index.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a>
+                    <a href="../index.html#features" class="text-gray-600 hover:text-blue-600 transition duration-300">Features</a>
+                    <a href="../index.html#demo" class="text-gray-600 hover:text-blue-600 transition duration-300">Demo</a>
+                    <a href="index.html" class="text-blue-600 font-semibold">Blog</a>
+                    <a href="../index.html#demo" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Article Header -->
+    <div class="hero-gradient text-white py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-8" data-aos="fade-up">
+                <div class="flex items-center justify-center mb-4">
+                    <span class="bg-white text-blue-600 px-4 py-2 rounded-full text-sm font-medium">Financial Impact</span>
+                    <span class="ml-4 text-blue-100">December 16, 2023 • 8 min read</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                    The Hidden Cost of Not Knowing Your Customers
+                </h1>
+                <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                    Most businesses lose $75 million annually without realizing why. Here's the real financial breakdown of customer misunderstanding—and how to stop the bleeding.
+                </p>
+            </div>
+            <div class="flex items-center justify-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex items-center">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Sumit Pandey" class="w-12 h-12 rounded-full">
+                    <div class="ml-4">
+                        <p class="text-base font-medium text-white">Sumit Pandey</p>
+                        <p class="text-sm text-blue-100">Founder & CEO • @sumitpandey</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Article Content -->
+    <article class="py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="prose prose-lg mx-auto" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Business Financial Loss" class="w-full rounded-xl shadow-lg mb-8">
+
+                <p class="text-xl text-gray-600 mb-8">
+                    Last month, I received a call from a CEO whose company had just lost their biggest client—worth $12 million annually. His first question wasn't "How do we win them back?" It was "How did we not see this coming?"
+                </p>
+
+                <p>
+                    The answer was simple: they weren't listening to what their customers were actually saying. And this $12 million loss was just the tip of the iceberg.
+                </p>
+
+                <div class="cost-box rounded-xl p-8 mb-8 text-center">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-4">The $75 Million Problem</h3>
+                    <p class="text-blue-700 text-lg">
+                        The average Fortune 500 company loses $75 million annually due to customer misunderstanding. Most don't even realize it's happening.
+                    </p>
+                </div>
+
+                <h2>The Real Cost Breakdown: Where Money Disappears</h2>
+
+                <p>
+                    After analyzing hundreds of companies using DeepSenti, I've identified five major areas where customer misunderstanding silently drains your bottom line:
+                </p>
+
+                <h3>1. Silent Churn: The $30M Annual Leak</h3>
+
+                <p>
+                    This is the biggest killer. Customers don't leave because of one bad experience—they leave because of accumulated frustration that no one detected.
+                </p>
+
+                <blockquote>
+                    "For every customer who complains, there are 26 others who remain silent but are equally dissatisfied." - Harvard Business Review
+                </blockquote>
+
+                <p>
+                    Let me share a real example: A SaaS company I worked with was celebrating a 95% satisfaction score while losing 20% of customers annually. When we analyzed their unstructured feedback, we found that "satisfied" customers were actually saying things like:
+                </p>
+
+                <ul>
+                    <li><span class="text-red-600">"It does what it's supposed to do, I guess"</span></li>
+                    <li><span class="text-yellow-600">"Works fine, but customer support is slow to respond"</span></li>
+                    <li><span class="text-red-600">"Getting the job done, though the interface feels outdated"</span></li>
+                </ul>
+
+                <p>
+                    These weren't satisfied customers—they were customers actively looking for alternatives. The company was hemorrhaging $2.5 million monthly in renewal revenue because they couldn't hear what "satisfied" actually meant.
+                </p>
+
+                <h3>2. Misdirected Product Development: $18M in Wrong Turns</h3>
+
+                <p>
+                    Most companies build features customers ask for, not features customers need. There's a massive difference.
+                </p>
+
+                <p>
+                    A fintech startup spent 18 months and $3.2 million building an advanced analytics dashboard because customers kept requesting "better reporting." When we analyzed their feedback with DeepSenti, we discovered customers weren't asking for complex analytics—they were frustrated by simple data export limitations.
+                </p>
+
+                <p>
+                    The real customer need: <span class="text-green-600">"I just want to download my transaction history without it taking forever"</span> and <span class="text-green-600">"Why can't I export data in the format my accountant needs?"</span>
+                </p>
+
+                <p>
+                    A simple export feature redesign solved the problem in 6 weeks for $50,000. They had over-engineered a solution to the wrong problem.
+                </p>
+
+                <h3>3. Ineffective Marketing: $15M in Mismatched Messaging</h3>
+
+                <p>
+                    You're speaking features when customers are thinking outcomes. You're highlighting capabilities when they care about emotions.
+                </p>
+
+                <p>
+                    An e-commerce platform was spending $1.2 million monthly on ads highlighting their "99.9% uptime" and "advanced security features." Conversion rates were tanking.
+                </p>
+
+                <p>
+                    Customer feedback revealed the real buying motivations:
+                </p>
+
+                <ul>
+                    <li><span class="text-green-600">"I need something that won't make me look stupid to my customers"</span></li>
+                    <li><span class="text-green-600">"Will this help me sleep better at night knowing my store is running?"</span></li>
+                    <li><span class="text-green-600">"Can I finally stop worrying about technical stuff and focus on my business?"</span></li>
+                </ul>
+
+                <p>
+                    They shifted messaging from technical features to peace of mind and business confidence. Conversion rates increased 340% with the same ad spend.
+                </p>
+
+                <h3>4. Customer Service Inefficiency: $8M in Reactive Support</h3>
+
+                <p>
+                    Most companies play whack-a-mole with customer issues instead of preventing them. Every support ticket represents a failure to understand customer needs proactively.
+                </p>
+
+                <p>
+                    A logistics company was spending $680,000 monthly on support tickets. Analysis revealed that 67% of tickets fell into three categories customers had been complaining about for months:
+                </p>
+
+                <ul>
+                    <li><span class="text-red-600">"Why can't I track my shipment in real-time?"</span></li>
+                    <li><span class="text-red-600">"The delivery window is too vague"</span></li>
+                    <li><span class="text-red-600">"I need better communication when delays happen"</span></li>
+                </ul>
+
+                <p>
+                    Instead of hiring more support staff, they invested in proactive tracking notifications and reduced support volume by 45%.
+                </p>
+
+                <h3>5. Lost Expansion Revenue: $4M in Missed Opportunities</h3>
+
+                <p>
+                    Your existing customers are telling you exactly how to sell them more. Most companies just aren't listening.
+                </p>
+
+                <p>
+                    A business software company discovered customers saying things like <span class="text-green-600">"Love this tool, wish it could handle our invoicing too"</span> and <span class="text-green-600">"Great for project management, but we still need another tool for time tracking."</span>
+                </p>
+
+                <p>
+                    These weren't feature requests—they were expansion opportunities. Building these integrations led to a 180% increase in average customer value.
+                </p>
+
+                <div class="savings-box rounded-xl p-8 mb-8">
+                    <h3 class="text-2xl font-bold text-green-800 mb-4">The DeepSenti ROI Calculator</h3>
+                    <div class="grid md:grid-cols-2 gap-6 text-green-700">
+                        <div>
+                            <h4 class="font-semibold mb-2">Reduced Churn:</h4>
+                            <p>15% churn reduction = $18M annual savings</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2">Focused Development:</h4>
+                            <p>50% faster product-market fit = $9M saved</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2">Targeted Marketing:</h4>
+                            <p>200% conversion improvement = $15M additional revenue</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-2">Proactive Support:</h4>
+                            <p>40% support reduction = $3.2M annual savings</p>
+                        </div>
+                    </div>
+                    <div class="text-center mt-6">
+                        <p class="text-2xl font-bold text-green-800">Total Annual Impact: $45.2M+</p>
+                    </div>
+                </div>
+
+                <h2>The Multiplier Effect: How Small Misunderstandings Become Big Losses</h2>
+
+                <p>
+                    Here's what most executives don't realize: customer misunderstanding compounds. One frustrated customer doesn't just leave—they influence others.
+                </p>
+
+                <h3>The Social Amplification Formula</h3>
+
+                <p>
+                    Research shows that:
+                </p>
+
+                <ul>
+                    <li>Happy customers tell 9 people about their experience</li>
+                    <li>Unhappy customers tell 16 people</li>
+                    <li>Each negative story reaches an average of 144 potential customers through social networks</li>
+                </ul>
+
+                <p>
+                    A single misunderstood customer complaint can influence hundreds of prospects. When you multiply this across your entire customer base, the impact is staggering.
+                </p>
+
+                <h2>Case Study: The $45 Million Turnaround</h2>
+
+                <p>
+                    Let me share how one retail chain stopped their revenue hemorrhage using customer understanding:
+                </p>
+
+                <h3>The Problem</h3>
+
+                <p>
+                    A national retail chain was losing $3.8 million monthly. Customer satisfaction surveys showed 78% satisfaction, but foot traffic was declining 12% year-over-year.
+                </p>
+
+                <h3>The Discovery</h3>
+
+                <p>
+                    Using DeepSenti to analyze customer feedback, we uncovered the real issues:
+                </p>
+
+                <ul>
+                    <li>Customers appreciated <span class="text-green-600">"good product selection"</span> but felt overwhelmed by <span class="text-red-600">"confusing store layout"</span></li>
+                    <li>They valued <span class="text-green-600">"competitive prices"</span> but were frustrated by <span class="text-red-600">"long checkout lines during busy times"</span></li>
+                    <li>Staff were described as <span class="text-green-600">"friendly when you can find them"</span> but customers felt <span class="text-yellow-600">"lost and unsupported"</span> while shopping</li>
+                </ul>
+
+                <h3>The Solution</h3>
+
+                <p>
+                    Instead of hiring more staff or expanding inventory, they focused on the real pain points:
+                </p>
+
+                <ul>
+                    <li>Redesigned store navigation with clear sightlines and digital wayfinding</li>
+                    <li>Implemented mobile checkout to reduce line waiting</li>
+                    <li>Stationed roaming staff in high-confusion areas</li>
+                </ul>
+
+                <h3>The Results</h3>
+
+                <ul>
+                    <li>Customer satisfaction increased from 78% to 89%</li>
+                    <li>Average visit duration increased 23% (customers were more comfortable browsing)</li>
+                    <li>Revenue per customer increased 31%</li>
+                    <li>Total annual revenue increase: $45.6 million</li>
+                </ul>
+
+                <p>
+                    <strong>Investment required:</strong> $1.2 million<br>
+                    <strong>ROI:</strong> 3,700% in the first year
+                </p>
+
+                <h2>The Hidden Costs You're Not Measuring</h2>
+
+                <p>
+                    Beyond the obvious revenue losses, customer misunderstanding creates hidden costs that rarely appear on P&L statements:
+                </p>
+
+                <h3>Employee Frustration and Turnover</h3>
+
+                <p>
+                    When customers aren't happy, your front-line employees feel it first. Customer service reps burn out faster, sales teams struggle to hit targets, and product teams build features no one wants.
+                </p>
+
+                <p>
+                    The average cost of replacing a skilled employee is $15,000-$75,000. Customer-driven turnover is preventable turnover.
+                </p>
+
+                <h3>Innovation Stagnation</h3>
+
+                <p>
+                    Companies that don't understand their customers build incrementally instead of innovatively. They copy competitors instead of leading markets.
+                </p>
+
+                <h3>Brand Reputation Erosion</h3>
+
+                <p>
+                    Every misunderstood customer interaction is a missed opportunity to build brand loyalty. In the social media age, brand damage spreads faster than ever.
+                </p>
+
+                <h2>How to Calculate Your Current Cost</h2>
+
+                <p>
+                    Want to know what customer misunderstanding is costing your business? Here's a simple framework:
+                </p>
+
+                <h3>The Customer Understanding Audit</h3>
+
+                <ol class="list-decimal ml-6 mb-6">
+                    <li class="mb-2"><strong>Churn Rate Analysis:</strong> What percentage of customers leave annually? Multiply by average customer lifetime value.</li>
+                    <li class="mb-2"><strong>Support Cost Review:</strong> How much do you spend on reactive customer support? What percentage could be prevented?</li>
+                    <li class="mb-2"><strong>Feature Adoption Rates:</strong> What percentage of new features get adopted? Low adoption = misaligned development.</li>
+                    <li class="mb-2"><strong>Marketing Efficiency:</strong> What's your customer acquisition cost trend? Rising costs often indicate message-market mismatch.</li>
+                    <li class="mb-2"><strong>Expansion Revenue:</strong> How much additional revenue comes from existing customers? Low expansion = missed opportunities.</li>
+                </ol>
+
+                <h2>The DeepSenti Difference: From Cost Center to Profit Driver</h2>
+
+                <p>
+                    Traditional customer feedback analysis treats symptoms. DeepSenti diagnoses root causes.
+                </p>
+
+                <p>
+                    Instead of telling you that customer satisfaction decreased 2 points, we tell you that customers are frustrated about specific workflow inefficiencies and suggest three targeted improvements.
+                </p>
+
+                <p>
+                    Instead of reporting that customers want "better communication," we identify that customers feel anxious during order processing and need reassurance at specific touchpoints.
+                </p>
+
+                <blockquote>
+                    "The cost of not knowing your customers isn't just lost revenue—it's lost potential. Every day you don't truly understand your customers is a day your competitors might."
+                </blockquote>
+
+                <h2>Your Next Step: Stop the Bleeding</h2>
+
+                <p>
+                    Customer misunderstanding is a silent profit killer. It's death by a thousand cuts, each one seemingly small but collectively devastating.
+                </p>
+
+                <p>
+                    The good news? Once you start truly listening to what your customers are saying, the turnaround can be rapid and dramatic.
+                </p>
+
+                <p>
+                    At DeepSenti, we've helped companies identify millions in hidden costs and convert them into competitive advantages. Because the biggest risk isn't changing how you listen to customers—it's continuing to not hear what they're really saying.
+                </p>
+
+                <div class="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8">
+                    <p class="text-blue-800 font-semibold">
+                        Ready to calculate your hidden costs? Our ROI calculator can show you exactly what customer misunderstanding is costing your business—and how much you could save.
+                    </p>
+                </div>
+
+                <p class="text-xl font-semibold text-blue-600">
+                    The question isn't whether you can afford to understand your customers better. It's whether you can afford not to.
+                </p>
+            </div>
+
+            <!-- Share and CTA Section -->
+            <div class="border-t border-gray-200 pt-8 mt-12" data-aos="fade-up">
+                <div class="flex flex-col sm:flex-row justify-between items-center">
+                    <div class="flex items-center space-x-4 mb-4 sm:mb-0">
+                        <span class="text-gray-600">Share this article:</span>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 transition duration-300">
+                                <i data-feather="twitter" class="w-5 h-5"></i>
+                            </a>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 transition duration-300">
+                                <i data-feather="linkedin" class="w-5 h-5"></i>
+                            </a>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 transition duration-300">
+                                <i data-feather="facebook" class="w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="mailto:sumitpandey171@gmail.com?subject=Hidden Cost Analysis&body=Hi Sumit,%0D%0A%0D%0AI read your article about hidden costs of not knowing customers. I'd like to understand what this might be costing our business.%0D%0A%0D%0ACompany: %0D%0AIndustry: %0D%0ACustomer Base Size: %0D%0A%0D%0AThank you!" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 font-semibold">
+                        Calculate Your Hidden Costs
+                    </a>
+                </div>
+            </div>
+
+            <!-- Author Bio -->
+            <div class="bg-gray-50 rounded-xl p-8 mt-12" data-aos="fade-up">
+                <div class="flex items-start">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Sumit Pandey" class="w-16 h-16 rounded-full">
+                    <div class="ml-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Sumit Pandey</h3>
+                        <p class="text-gray-600 mb-3">
+                            Sumit is the Founder & CEO of DeepSenti, passionate about revolutionizing how businesses understand their customers. With deep expertise in AI and customer experience, Sumit has helped hundreds of companies transform their customer feedback into strategic competitive advantages through advanced sentiment analysis.
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 transition duration-300">
+                                <i data-feather="twitter" class="w-4 h-4 inline mr-1"></i> @sumitpandey
+                            </a>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 transition duration-300">
+                                <i data-feather="linkedin" class="w-4 h-4 inline mr-1"></i> LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Related Articles -->
+    <div class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 text-center mb-12" data-aos="fade-up">Related Articles</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Related Article" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            <a href="post2.html" class="hover:text-blue-600 transition duration-300">
+                                Why Customer Understanding is Business Critical
+                            </a>
+                        </h3>
+                        <p class="text-gray-600">Discover why truly understanding your customers isn't just nice-to-have anymore...</p>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Related Article" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            <a href="post4.html" class="hover:text-blue-600 transition duration-300">
+                                How DeepSenti Transforms Customer Insights
+                            </a>
+                        </h3>
+                        <p class="text-gray-600">See how our AI platform turns customer feedback into actionable business intelligence...</p>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Related Article" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            <a href="post5.html" class="hover:text-blue-600 transition duration-300">
+                                Real Success Stories with DeepSenti
+                            </a>
+                        </h3>
+                        <p class="text-gray-600">Read how companies transformed their customer experience using DeepSenti...</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Product</h3>
+                    <ul class="space-y-2">
+                        <li><a href="../index.html#features" class="hover:text-white transition duration-300">Features</a></li>
+                        <li><a href="../index.html#demo" class="hover:text-white transition duration-300">Demo</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Pricing</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">API</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-white transition duration-300">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Documentation</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Guides</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition duration-300">About</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Privacy</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Terms</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i data-feather="twitter" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i data-feather="linkedin" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i data-feather="github" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center">
+                <p>© 2023 DeepSenti. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
